@@ -1,1 +1,80 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html {
+  font-family: 'Nunito';
+}
+
+body {
+  background-color: #130f0d;
+  color: #fff;
+}
+
+.boards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
+}
+
+.boards .board {
+  background-color: #141316;
+  border: 1px solid #fd951f11;
+  margin: 0 16px;
+}
+
+.boards .board h3 {
+  padding: 16px;
+  margin: 0;
+  color: #FD951Fcc;
+}
+
+.boards .board .dropzone {
+  padding: 16px;
+  min-width: 282px;
+  min-height: 200px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.boards .board .dropzone.highlight {
+  background-color: #FD951F08;
+}
+
+.boards .board .dropzone.over {
+  background-color: #152721;
+}
+
+.boards .board .dropzone .card {
+  padding: 16px;
+  -webkit-box-shadow: 0 2px 2px -1px #FD951fcc;
+          box-shadow: 0 2px 2px -1px #FD951fcc;
+  width: 250px;
+  margin: 25px 0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #1A1A1C;
+}
+
+.boards .board .dropzone .card.is-dragging {
+  cursor: move;
+  opacity: .3;
+}
+
+.boards .board .dropzone .card .status {
+  width: 30px;
+  height: 8px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.boards .board .dropzone .card .status.green {
+  background-color: #23d2ac;
+}
+
+.boards .board .dropzone .card .status.blue {
+  background-color: #33adff;
+}
+
+.boards .board .dropzone .card .status.red {
+  background-color: #ff304f;
+}
+/*# sourceMappingURL=style.css.map */
